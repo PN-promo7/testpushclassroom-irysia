@@ -253,7 +253,7 @@
 @media only screen and (min-device-width : 540px) and (max-device-width : 1024px) {
 
   /* général */
-  html, body, .container {
+  html, body, .container, nav.container {
     width: 100%;
   }
 
@@ -264,6 +264,7 @@
   .no-responsive {
     display: none;
   }
+
   /* textes */
   h1 {
     color: #ffffff;
@@ -308,6 +309,10 @@
   }
 
   /* navigation PRINCIPALE */
+  .buisness-logo {
+    margin-left: 10px;
+  }
+
   .account {
     width: 35%;
     justify-content: space-around;
@@ -487,9 +492,9 @@
     display: none;
   }
 }
+
 /* ///////////////////////////////////////////////// */
 /* CAS PARTICULIERS */
-
 /* special surface duo  et iphone 5*/
 @media only screen and (min-device-width : 540px) and (max-device-width : 600px) {
   .bubble {
@@ -508,7 +513,6 @@
 
 /* special iphone X & Smartphones (landscape) & ipad tablettes----------- */
 @media only screen and (min-device-width : 812px) and (max-device-width : 1024px) {
-
   h3 {
     font-size: 0.8rem;
     margin-bottom: 5px;
@@ -550,9 +554,8 @@
   .social-deco-line {
     width: 45%;
   } */
-
-  /* ajustements produits */
-  /* .products {
+/* ajustements produits */
+/* .products {
     margin: 100px 0px;
     justify-content: space-around;
   }
