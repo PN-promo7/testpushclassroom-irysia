@@ -529,7 +529,7 @@
 }
 
 /* ipad tablettes grandes */
-@media only screen and (min-width : 1024px) and (max-device-width : 1439px) {
+/* @media only screen and (min-width : 1024px) and (max-device-width : 1439px) {
 
   html, body, .container, main {
     width: 100%;
@@ -549,10 +549,10 @@
 
   .social-deco-line {
     width: 45%;
-  }
+  } */
 
   /* ajustements produits */
-  .products {
+  /* .products {
     margin: 100px 0px;
     justify-content: space-around;
   }
@@ -572,5 +572,5 @@
   .bubble {
     width: 130px;
     height: 130px;
-  }
+  } */
 }

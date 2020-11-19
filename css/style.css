@@ -15,7 +15,7 @@
  }
 
  .container {
-   width: 1440px;
+   width: 1170px;
    margin: 0 auto;
  }
 
@@ -51,8 +51,8 @@
  h3 {
    font-family: 'Raleway', sans-serif;
    color: #000000;
-   font-size: 1.2rem;
-   font-weight: 400;
+   font-size: 1rem;
+   font-weight: 600;
    margin-bottom: 10px;
    margin-top: 0;
    display: inline-block;
@@ -151,7 +151,7 @@
    flex-flow: row wrap;
    align-items: center;
    justify-content: space-between;
-   width: 1360px;
+   width: 1170px;
    padding: 5px 0px;
    z-index: 1;
  }
@@ -316,6 +316,9 @@
    float: right;
    color: #807C66;
  }
+ .fullwidth {
+   width:100%;
+ }
  /* //////////////////////////////////////////////////////////// */
  /* SECTION CATEGORIES */
  /* ////////////////////////////////////////////////////////////// */
@@ -429,11 +432,11 @@
  }
  /* traitement et position contenus NEWSLETTER */
  .mail {
-   width: 50%;
+   width: 60%;
    display: flex;
    align-items: center;
    justify-content: space-around;
-   padding: 10px;
+   padding: 5px;
    background-color: #ffffff;
    border-radius: 30px 0;
    margin: 0 auto;
@@ -463,15 +466,14 @@
  /* ////////////////////////////////////////////////////////////// */
  /* général partie entreprise */
  .buissness .container {
-   width: 100%;
    display: flex;
-  flex-flow: row nowrap;
+   flex-flow: row nowrap;
    justify-content: space-between;
    align-items: center;
  }
  /* lignes décoratives entre les bulles */
  .buisness-line {
-   width: 184px;
+   width: 114px;
  }
  /* général des bulles */
  .bubble {
@@ -513,7 +515,7 @@
    display: inline-block;
    position: fixed;
    bottom: 0px;
-   right: 270px;
+   right: 0px;
    opacity: 0.5;
    z-index: 1;
  }
@@ -550,7 +552,7 @@
 
   .footer-list .txt-link{
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .footer-list .txt-link:hover{
@@ -590,7 +592,7 @@
  }
  /* ligne décorative réseaux */
  .social-deco-line {
-   width: 48%;
+   width: 36%;
  }
  /* mot décoratif "suivez nous" réseaux */
  .social-deco-word {
